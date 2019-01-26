@@ -1,0 +1,6 @@
+node_modules
+script
+./tmp*
+.idea
+.DS_Store
+atsumaru.zip

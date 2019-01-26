@@ -1,0 +1,104 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"akari": {
+			"type": "image",
+			"width": 128,
+			"height": 128,
+			"path": "image/akari.png"
+		},
+		"ExternalClient": {
+			"type": "script",
+			"path": "script/external/ExternalClient.js",
+			"global": true
+		},
+		"RPGAtsumaruClient": {
+			"type": "script",
+			"path": "script/external/RPGAtsumaruClient.js",
+			"global": true
+		},
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"Player": {
+			"type": "script",
+			"path": "script/object/Player.js",
+			"global": true
+		},
+		"MainScene": {
+			"type": "script",
+			"path": "script/scene/MainScene.js",
+			"global": true
+		},
+		"Background": {
+			"type": "script",
+			"path": "script/object/Background.js",
+			"global": true
+		},
+		"Signal": {
+			"type": "script",
+			"path": "script/external/Signal.js",
+			"global": true
+		},
+		"Chat": {
+			"type": "script",
+			"path": "script/object/Chat.js",
+			"global": true
+		},
+		"ExternalClientFactory": {
+			"type": "script",
+			"path": "script/external/ExternalClientFactory.js",
+			"global": true
+		},
+		"MockExternalClient": {
+			"type": "script",
+			"path": "script/external/MockExternalClient.js",
+			"global": true
+		},
+		"Button": {
+			"type": "script",
+			"path": "script/object/Button.js",
+			"global": true
+		},
+		"ConsolePanel": {
+			"type": "script",
+			"path": "script/object/ConsolePanel.js",
+			"global": true
+		},
+		"Util": {
+			"type": "script",
+			"path": "script/util/Util.js",
+			"global": true
+		},
+		"akane": {
+			"type": "image",
+			"width": 128,
+			"height": 128,
+			"path": "image/akane.png"
+		},
+		"aoi": {
+			"type": "image",
+			"width": 128,
+			"height": 128,
+			"path": "image/aoi.png"
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2"
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	}
+}
